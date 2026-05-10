@@ -600,7 +600,7 @@ print(classification_report(y, y_pred_tot))
 # SECTION 17 — PREDICTION ON TEST DATA (Kaggle format)
 # ============================================================
 
-test = pd.read_csv('https://frenzy86.s3.eu-west-2.amazonaws.com/python/titanic-test.csv')
+test = pd.read_csv(/titanic-test.csv')
 test_clean = test.drop(features_to_remove, axis=1)
 
 test_pred = model_pipe.predict(test_clean).astype(int)
