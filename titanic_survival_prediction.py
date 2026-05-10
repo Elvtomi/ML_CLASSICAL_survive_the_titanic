@@ -10,7 +10,7 @@
  GitHub : github.com/Elvtomi
 
 ------------------------------------------------------------
- BUSINESS QUESTION
+MAIN QUESTION
  "Given passenger characteristics (age, sex, ticket class,
   family size, fare), can we predict whether they survived?"
 
